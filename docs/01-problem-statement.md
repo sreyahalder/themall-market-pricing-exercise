@@ -20,7 +20,7 @@ The result is that "converted GBP to USD" can differ from "the actual USD price 
 
 Design a system that lets the platform access actual product listing prices for each available Shopify market and currency, not just the base storefront price.
 
-## Concrete case for this assignment
+## Concrete case for this project
 
 Use `https://www.cutlerandgross.com` as the seed storefront.
 

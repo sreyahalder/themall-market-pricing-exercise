@@ -1,6 +1,6 @@
-# The Mall Market Pricing Assignment
+# The Mall Market Pricing Project
 
-This repository is a self-contained technical assignment covering scraping and data design techniques for The Mall.
+This repository is a self-contained project brief covering scraping and data design techniques for The Mall.
 
 It covers a real platform problem:
 
@@ -14,8 +14,8 @@ The package includes:
 - a storefront probe for Cutler and Gross
 - sample output from both scripts
 - current-state notes
-- a technical brief
-- review criteria
+- a project brief
+- success criteria
 
 ## Folder layout
 
@@ -29,8 +29,8 @@ The package includes:
 - `docs/01-problem-statement.md`
 - `docs/02-current-state.md`
 - `docs/03-cutler-and-gross-recon.md`
-- `docs/04-technical-brief.md`
-- `docs/05-review-criteria.md`
+- `docs/04-project-brief.md`
+- `docs/05-success-criteria.md`
 
 ## Requirements
 
@@ -43,7 +43,7 @@ There are no npm dependencies.
 
 ```bash
 git clone <repo-url>
-cd themall-market-pricing-assignment
+cd themall-market-pricing-project
 npm run scrape:current
 npm run probe:markets
 ```
@@ -51,7 +51,7 @@ npm run probe:markets
 ## Quick start from a local copy
 
 ```bash
-cd themall-market-pricing-assignment
+cd themall-market-pricing-project
 npm run scrape:current
 npm run probe:markets
 ```
@@ -60,8 +60,8 @@ npm run probe:markets
 
 1. [docs/01-problem-statement.md](docs/01-problem-statement.md)
 2. [docs/03-cutler-and-gross-recon.md](docs/03-cutler-and-gross-recon.md)
-3. [docs/04-technical-brief.md](docs/04-technical-brief.md)
-4. [docs/05-review-criteria.md](docs/05-review-criteria.md)
+3. [docs/04-project-brief.md](docs/04-project-brief.md)
+4. [docs/05-success-criteria.md](docs/05-success-criteria.md)
 
 ## What this covers
 

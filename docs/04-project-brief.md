@@ -1,8 +1,8 @@
-# Technical Brief
+# Project Brief
 
 ## Context
 
-This assignment is based on a real platform problem at The Mall.
+This project is based on a real platform problem at The Mall.
 
 The platform already scrapes Shopify product catalogs into its own database. Today, it captures the base storefront price and brand currency, then converts prices client-side when a customer wants a different display currency.
 
@@ -21,7 +21,7 @@ Use `https://www.cutlerandgross.com` as the concrete reference store.
 2. Storefront notes showing how `products.json`, `variants.json`, `meta.json`, and the product page behave.
 3. A real example where the base storefront is `GBP` but the site advertises a `USD` market.
 
-## Assignment
+## Project
 
 Produce a design for a production-ready market-aware pricing subsystem.
 
@@ -40,9 +40,9 @@ Your design should cover:
 - operations
   - how the system is monitored, retried, and rolled out safely
 
-## Required outputs
+## Suggested outputs
 
-Prepare the following:
+Useful outputs for the project:
 
 1. A written architecture memo, about 3 to 6 pages.
 2. A proposed data model.
@@ -67,11 +67,11 @@ Optional:
 - Assume the current catalog scraper based on `products.json` should remain in place for baseline ingestion.
 - Assume legal and reputational risk matters; do not rely on reckless scraping behavior.
 
-## Areas to address
+## Areas to cover
 
 ### 1. Separation of concerns
 
-The strongest design will separate:
+A solid design will separate:
 
 - baseline catalog ingestion
 - market discovery
@@ -161,9 +161,9 @@ Address:
 - observability and alerting
 - support tooling for debugging one brand or one product
 
-## Suggested target architecture
+## One reasonable target architecture
 
-You do not need to use this exact design, but a strong answer will usually converge on something similar.
+You do not need to use this exact design, but it is a useful reference shape.
 
 ### Baseline layer
 
@@ -185,7 +185,7 @@ Per brand, discover supported markets from:
 
 Output:
 
-- a list of candidate markets per brand
+- a list of possible markets per brand
 - a market entry strategy per brand
 
 ### Market extraction layer
@@ -214,14 +214,3 @@ Product-serving rules should prefer:
 2. fresh unverified market price
 3. base storefront price
 4. FX-converted price only if the UI flags it as derived
-
-## Review questions
-
-Be ready to explain:
-
-- how you would tell whether a store truly supports a market versus merely listing it in the UI
-- how you would prevent the system from over-scraping or getting blocked
-- how you would handle stores where the localized path 302s but the resulting page 404s
-- how you would decide when to use a browser, plain HTTP, or both
-- how you would avoid storing low-confidence prices as if they were authoritative
-- how you would roll this out without degrading the existing catalog pipeline
