@@ -1,0 +1,22 @@
+{
+  "product_url": "https://www.cutlerandgross.com/products/9782-aviator-polarised-sunglasses-black",
+  "scraped_at": "2026-03-20T23:37:26.996Z",
+  "default_page": {
+    "final_url": "https://www.cutlerandgross.com/products/9782-aviator-polarised-sunglasses-black",
+    "og_price_amount": "440.00",
+    "og_price_currency": "GBP",
+    "shopify_currency_active": "GBP",
+    "shopify_country": "GB",
+    "has_us_market_option": true,
+    "has_ca_market_option": true,
+    "has_au_market_option": true,
+    "has_eur_market_option": true
+  },
+  "localization_probe": {
+    "request_country_code": "US",
+    "status": 302,
+    "redirect_location": "https://www.cutlerandgross.com/en-us/products/9782-aviator-polarised-sunglasses-black",
+    "set_cookie": "_shopify_essential=:AZ0NnGgjAAEAPka0gIN6DCbUHvYS6sdKVYw6pwLey2DY-RmHx2GDjhACL8P3TgKxNdpGHLJ6vTVXRVCA_kIcyoUgGe_fXD07SbYxXPprD4tgK94ngt-KcwsmKWRY7wUgZKNKJNxQVgmjCMfDBecuy-izudtsbbBHVjBkVB8YdZ63sNQ-JFtqTBYezFyswbzEJ34-K5BMh-75CFv01ODXmO1tQEwJq1EnJJT7yAa9oA98_nDl8YYIo3vFQFg87wrmqBZz_n5OkY4w1dcya2frdAICUjtmBENfsAZ6-ZmV8sOTL2pt54W57qegOnF8bbbK9gcgl__CRR5sL6OKlcZeNv5egLKG8z0apan_8XydysI2jsIP2Sv_sgHYu-5BbSLZYENMCT5-Ag:; Max-Age=31536000; Path=/; HttpOnly; Secure; Priority=High; SameSite=Lax, _shopify_analytics=:AZ0NnGglAAEAz91C0p-7n9Z4gg7X1K64Cpk8vRs6Mz3h9Ibid3m4D0F7rvutQDVQDEnawgiqIzxN_UpeENN-oc4:; Max-Age=31536000; Path=/; HttpOnly; Secure; Priority=High; SameSite=Lax, _shopify_y=da746dbc-93fa-4a5c-bd5a-2183512c4da5; domain=cutlerandgross.com; path=/; expires=Sun, 21 Mar 2027 05:37:27 GMT; SameSite=Lax, _shopify_s=c956a358-df0b-4165-babe-6c7661e9e4ca; domain=cutlerandgross.com; path=/; expires=Sat, 21 Mar 2026 00:07:27 GMT; SameSite=Lax, localization=US; path=/en-us; expires=Sat, 20 Mar 2027 23:37:27 GMT; SameSite=Lax",
+    "note": "A 302 plus a market-specific path or cookie is a strong signal, but not proof that the product page can be fetched market-aware without a browser session."
+  }
+}

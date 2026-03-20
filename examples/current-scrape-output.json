@@ -1,0 +1,52 @@
+{
+  "base_url": "https://www.cutlerandgross.com",
+  "scraped_at": "2026-03-20T23:37:28.609Z",
+  "current_method": {
+    "catalog_endpoint": "https://www.cutlerandgross.com/products.json",
+    "meta_endpoint": "https://www.cutlerandgross.com/meta.json",
+    "first_variants_endpoint": "https://www.cutlerandgross.com/products/9782-aviator-polarised-sunglasses-black/variants.json",
+    "price_source": "first variant in products.json",
+    "brand_currency_source": "variants.json currency candidates, then meta.json currency"
+  },
+  "brand_meta": {
+    "name": "Cutler and Gross",
+    "country": "GB",
+    "currency": "GBP",
+    "ships_to_countries_count": 215,
+    "published_products_count": 293
+  },
+  "variants_currency_probe": {
+    "currency": "GBP",
+    "handle": "9782-aviator-polarised-sunglasses-black",
+    "variantsUrl": "https://www.cutlerandgross.com/products/9782-aviator-polarised-sunglasses-black/variants.json"
+  },
+  "sample_product": {
+    "name": "9782 Aviator Polarised Sunglasses",
+    "vendor": "Cutler and Gross",
+    "shopify_product_gid": "gid://shopify/Product/7501477642343",
+    "price": 440,
+    "original_price": null,
+    "discount_percentage": null,
+    "product_url": "https://www.cutlerandgross.com/products/9782-aviator-polarised-sunglasses-black",
+    "category": "Sunglasses",
+    "in_stock": true,
+    "description": "The 9782 aviator sunglasses pay tribute to the hedonism and happenings of the late 80s and 90s, when Cutler and Gross customers like Iggy Pop and Grace Jones frequented Studio 54. It's rooted in our bestselling 1394 frame, reworked with a slightly narrower bridge and classic teardrop lenses. Compass Star pins and Art Deco core wire add subtle yet distinctive detail.",
+    "created_at": "2026-03-10T13:54:30+00:00",
+    "variants": [
+      {
+        "variant_id": "42085784289383",
+        "title": "Black",
+        "size": "Black",
+        "color": null,
+        "option3": null,
+        "price": 440,
+        "compare_at_price": null,
+        "available": true,
+        "sku": "CGSN-9782-60-6P"
+      }
+    ]
+  },
+  "sample_product_count": 25,
+  "note": "This baseline mirrors the current scraper: it returns the default storefront price and does not prove market-specific USD pricing."
+}
+

@@ -1,0 +1,11 @@
+{
+  "name": "cto-market-pricing-exercise",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape:current": "node scripts/scrape-current-way.mjs",
+    "probe:markets": "node scripts/probe-market-pricing.mjs"
+  }
+}
+
