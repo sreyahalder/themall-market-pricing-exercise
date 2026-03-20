@@ -91,12 +91,12 @@ Interpretation:
   - market-aware page fetching via a browser or better storefront signal
   - cart or line-item validation to confirm the actual sell price
 
-## Takeaway for the exercise
+## Takeaway
 
-This is a good interview case because it is not trivial:
+This is a useful case because it is not trivial:
 
 - the storefront clearly supports multiple markets
 - the obvious public endpoints still reflect base-store pricing
 - the localization path is suggestive but not turnkey
 
-That forces the candidate to design a resilient system instead of relying on one lucky endpoint.
+That forces the design to be resilient instead of relying on one lucky endpoint.

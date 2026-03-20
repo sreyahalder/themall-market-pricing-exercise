@@ -20,7 +20,7 @@ The result is that "converted GBP to USD" can differ from "the actual USD price 
 
 Design a system that lets the platform access actual product listing prices for each available Shopify market and currency, not just the base storefront price.
 
-## Concrete case for the exercise
+## Concrete case for this assignment
 
 Use `https://www.cutlerandgross.com` as the seed storefront.
 
@@ -39,4 +39,3 @@ This is exactly the mismatch the system needs to solve.
 - checkout automation for every brand
 
 The focus is Shopify storefronts with multiple markets and currencies.
-

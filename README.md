@@ -1,6 +1,6 @@
-# Shopify Market Pricing CTO Exercise
+# The Mall Market Pricing Assignment
 
-This repository is a self-contained interview package for a CTO-level candidate.
+This repository is a self-contained technical assignment covering scraping and data design techniques for The Mall.
 
 It covers a real platform problem:
 
@@ -14,8 +14,8 @@ The package includes:
 - a storefront probe for Cutler and Gross
 - sample output from both scripts
 - current-state notes
-- a candidate-facing system design spec
-- an evaluation rubric
+- a technical brief
+- review criteria
 
 ## Folder layout
 
@@ -29,8 +29,8 @@ The package includes:
 - `docs/01-problem-statement.md`
 - `docs/02-current-state.md`
 - `docs/03-cutler-and-gross-recon.md`
-- `docs/04-cto-candidate-spec.md`
-- `docs/05-evaluation-rubric.md`
+- `docs/04-technical-brief.md`
+- `docs/05-review-criteria.md`
 
 ## Requirements
 
@@ -43,7 +43,7 @@ There are no npm dependencies.
 
 ```bash
 git clone <repo-url>
-cd cto-market-pricing-exercise
+cd themall-market-pricing-assignment
 npm run scrape:current
 npm run probe:markets
 ```
@@ -51,7 +51,7 @@ npm run probe:markets
 ## Quick start from a local copy
 
 ```bash
-cd cto-market-pricing-exercise
+cd themall-market-pricing-assignment
 npm run scrape:current
 npm run probe:markets
 ```
@@ -60,24 +60,18 @@ npm run probe:markets
 
 1. [docs/01-problem-statement.md](docs/01-problem-statement.md)
 2. [docs/03-cutler-and-gross-recon.md](docs/03-cutler-and-gross-recon.md)
-3. [docs/04-cto-candidate-spec.md](docs/04-cto-candidate-spec.md)
-4. [docs/05-evaluation-rubric.md](docs/05-evaluation-rubric.md)
+3. [docs/04-technical-brief.md](docs/04-technical-brief.md)
+4. [docs/05-review-criteria.md](docs/05-review-criteria.md)
 
-## What this is testing
+## What this covers
 
-The candidate should be able to:
+The work here is meant to show:
 
 - reason from a real Shopify storefront, not an abstract whiteboard prompt
 - separate base catalog scraping from market-aware pricing extraction
 - design a data model for per-market product and variant prices
 - propose a reliable extraction and validation strategy
 - think about rollout, monitoring, cost, correctness, and failure modes
-
-## Recommended interview flow
-
-1. Give the candidate this folder 24 to 48 hours in advance.
-2. Ask for a written design memo plus a short presentation.
-3. In the live interview, pressure-test tradeoffs, operational maturity, and rollout quality.
 
 ## Notes
 

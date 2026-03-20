@@ -106,7 +106,7 @@ async function fetchText(url, options = {}) {
   return curlRequest(url, {
     ...options,
     headers: {
-      "user-agent": "Mozilla/5.0 (Codex CTO exercise)",
+      "user-agent": "Mozilla/5.0 (The Mall market pricing assignment)",
       accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
       ...(options.headers || {}),
     },

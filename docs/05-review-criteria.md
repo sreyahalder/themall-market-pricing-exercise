@@ -1,12 +1,12 @@
-# Evaluation Rubric
+# Review Criteria
 
-## What we are evaluating
+## What this reviews
 
 This is not a trick question about one Shopify endpoint. It is a systems and product-quality question.
 
-We want to know whether the candidate can design a robust subsystem under messy real-world constraints.
+The goal is to evaluate whether the work proposes a robust subsystem under messy real-world constraints.
 
-## Rubric
+## Criteria
 
 ### 1. Product judgment
 
@@ -89,4 +89,3 @@ Weak:
 - no explanation of how stale data is handled
 - no support for partial market coverage
 - no concern for operational cost
-

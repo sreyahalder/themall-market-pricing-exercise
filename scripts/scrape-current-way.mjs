@@ -114,7 +114,7 @@ async function fetchJson(url) {
   const response = await curlRequest(url, {
     followRedirects: true,
     headers: {
-      "user-agent": "Mozilla/5.0 (Codex CTO exercise)",
+      "user-agent": "Mozilla/5.0 (The Mall market pricing assignment)",
       accept: "application/json, text/plain, */*",
     },
   });
